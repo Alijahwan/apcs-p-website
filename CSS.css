@@ -1,0 +1,105 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+h1 {
+    color: burlywood;
+    font-family:'Helvetica';
+    font-size: 70px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+.red {
+    color: rgb(214, 91, 116);
+}
+
+.green {
+    color: darkgreen;
+}
+
+.orange{
+    color: rgb(243, 161, 8)
+}
+.blue {
+    color: cornflowerblue;
+}
+
+.yellow{
+    color: darkgoldenrod;
+}
+
+.black {
+    color: black;
+}
+
+.purple{
+    color:rgb(224, 159, 224);
+}
+
+@media (max-width: 550px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #333;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
